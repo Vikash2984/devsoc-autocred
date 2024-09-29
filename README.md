@@ -1,4 +1,6 @@
 # 𝗱𝗲𝘃𝘀𝗼𝗰-𝗮𝘂𝘁𝗼𝗰𝗿𝗲𝗱
+<p>devsoc-autocred is a proprietary in-house automated credential generator owned by the Development Society AEC</p>
+<hr>
 ## 𝗨𝘀𝗲𝗿 𝗜𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀
 
 This generator requires 3 place holders from the user {𝙣𝙖𝙢𝙚} {𝙙𝙚𝙥𝙖𝙧𝙩𝙢𝙚𝙣𝙩} and {𝙙𝙖𝙩𝙚}
