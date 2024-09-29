@@ -1,4 +1,9 @@
-# 𝗨𝘀𝗲𝗿 𝗜𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀
+# 𝗗𝗲𝘃𝗦𝗼𝗰-𝗔𝘂𝘁𝗼𝗰𝗿𝗲𝗱 ⚙️
+<p>Devsoc-Autocred is an in-house, proprietary automated credential generator developed by the Development Society of AEC. It efficiently generates certificates with customizable templates, streamlining the credential creation process.</p>
+
+<hr>
+
+## 𝗨𝘀𝗲𝗿 𝗜𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 📑
 
 This generator requires 3 place holders from the user {𝙣𝙖𝙢𝙚} {𝙙𝙚𝙥𝙖𝙧𝙩𝙢𝙚𝙣𝙩} and {𝙙𝙖𝙩𝙚}
 
@@ -28,7 +33,7 @@ Once the script is run the final batch of Certificates can be found at ./𝘾�
 
 <hr>
 
-# 𝗜𝗺𝗽𝗼𝗿𝘁𝗮𝗻𝘁 𝗦𝘂𝗴𝗴𝗲𝘀𝘁𝗶𝗼𝗻
+## ⚠ 𝗜𝗺𝗽𝗼𝗿𝘁𝗮𝗻𝘁 𝗦𝘂𝗴𝗴𝗲𝘀𝘁𝗶𝗼𝗻 
 
 • Try providing 𝗥𝗮𝗱𝗶𝗼 𝗯𝘂𝘁𝘁𝗼𝗻𝘀 only as input field for 𝗗𝗲𝗽𝗮𝗿𝘁𝗺𝗲𝗻𝘁 𝗡𝗮𝗺𝗲 and 𝗬𝗲𝗮𝗿
 
