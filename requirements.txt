@@ -1,0 +1,5 @@
+# pip install -r requirements.txt : To import all modules at once
+python-docx>=0.8.11
+pandas>=1.0.0
+openpyxl>=3.0.0
+pywin32>=300
