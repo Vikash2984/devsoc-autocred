@@ -1,5 +1,6 @@
 # 𝗗𝗲𝘃𝗦𝗼𝗰-𝗔𝘂𝘁𝗼𝗰𝗿𝗲𝗱 ⚙️
-<p>devsoc-autocred is a proprietary, in-house automated credential generator owned by the Development Society of AEC.</p>
+<p>Devsoc-Autocred is an in-house, proprietary automated credential generator developed by the Development Society of AEC. It efficiently generates certificates with customizable templates, streamlining the credential creation process.</p>
+
 <hr>
 
 ## 𝗨𝘀𝗲𝗿 𝗜𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 📑
