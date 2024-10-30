@@ -12,7 +12,7 @@ def read_student_data(excel_file):
     if os.path.isfile(excel_file):  # Check if file exists
         df = pd.read_excel(excel_file, engine='openpyxl')
         # Ensure the required columns are present in the Excel file
-        required_columns = ['Name', 'Department', 'Year']
+        required_columns = ['Name', 'Email', 'Department', 'Year']
         if all(column in df.columns for column in required_columns):
             # Convert all data to string and return it
             student_data = df[required_columns].astype(str).to_dict(orient='records')
@@ -28,13 +28,17 @@ def replace_placeholder_with_format(paragraph, placeholder, replacement):
     """
     for run in paragraph.runs:
         if placeholder in run.text:
-            # Create a new run with the desired formatting
             run.text = run.text.replace(placeholder, "")  # Remove placeholder text from this run
             new_run = paragraph.add_run(replacement)  # Add new run with the replacement text
             new_run.font.name = 'Georgia'  # Set the font to Georgia
-            new_run.font.size = Pt(21.5)  # Set the font size
             new_run.font.color.rgb = RGBColor(171, 124, 52)  # Set the font color (#AB7C34 in RGB)
             new_run.font.italic = True  # Make the font italic
+            
+            # Conditionally set font size for specific placeholders
+            if placeholder == '{name}':
+                new_run.font.size = Pt(28)  # Set font size to 28 for 'name'
+            else:
+                new_run.font.size = Pt(21.5)  # Keep font size 21.5 for 'department' and 'year'
 
 def replace_placeholders_in_table(table, placeholders):
     """
@@ -48,41 +52,35 @@ def replace_placeholders_in_table(table, placeholders):
 
 def generate_certificate(template_path, output_folder, student_data):
     """
-    Generates certificates for students using the given Word template and student data.
-    Replaces {name}, {department}, and {year} in the template.
+    Generate certificates by replacing placeholders with actual student data.
     """
+    gen_count = 0
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
+    
     for student in student_data:
-        # Load the Word template
-        doc = Document(template_path)
-
-        # Define placeholders and their replacements
         placeholders = {
             '{name}': student['Name'],
             '{department}': student['Department'],
             '{year}': student['Year']
         }
-
-        # Replace placeholders in paragraphs
-        for paragraph in doc.paragraphs:
-            for placeholder, replacement in placeholders.items():
-                replace_placeholder_with_format(paragraph, placeholder, replacement)
-
-        # Replace placeholders in tables
+        
+        doc = Document(template_path)
         for table in doc.tables:
             replace_placeholders_in_table(table, placeholders)
-
-        # Save the modified document
-        output_path = os.path.join(output_folder, f"{student['Name']}_certificate.docx")
+        
+        output_path = os.path.join(output_folder, f"{student['Name']}_{student['Email']}_certificate.docx")
         doc.save(output_path)
-        print(f"Generated certificate for {student['Name']} at '{output_path}'")
+        print(f"\nCertificate generated for {student['Name']} at {output_path}")
+        gen_count += 1
+    if gen_count == 1:
+        print(f"\n 1 certificate was generated...")
+    else:
+        print(f"\n{gen_count} certificates were generated...")
 
-# Paths
-excel_file = r'Generator-word\XLSX-Generator\data.xlsx'
-template_path = r'template.docx'
-output_folder = r'docx'
-
-# Read student data from Excel (name, department, year)
+# Example usage:
+template_path = "template.docx"
+output_folder = "docx"
+excel_file = "Generator-word/data.xlsx"
 student_data = read_student_data(excel_file)
-
-# Generate certificates
 generate_certificate(template_path, output_folder, student_data)
