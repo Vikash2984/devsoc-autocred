@@ -43,8 +43,8 @@ def convert_docx_to_pdf(source_folder, target_folder):
     word.Quit()
 
 # Specify the source and target folder paths with absolute paths
-source_folder = r'D:\vsCode\Python\Auto\autocred-v.3.0\docx'
-target_folder = r'D:\vsCode\Python\Auto\autocred-v.3.0\Certificates'
+source_folder = r'D:\vsCode\vcs\devsoc-autocred\docx'
+target_folder = r'D:\vsCode\vcs\devsoc-autocred\Certificates'
 
 # Convert all .docx files in the source folder to PDF and save them to the target folder
 convert_docx_to_pdf(source_folder, target_folder)

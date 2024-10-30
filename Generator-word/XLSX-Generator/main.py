@@ -81,6 +81,6 @@ def generate_certificate(template_path, output_folder, student_data):
 # Example usage:
 template_path = "template.docx"
 output_folder = "docx"
-excel_file = "Generator-word/data.xlsx"
+excel_file = "Generator-word\XLSX-Generator\data.xlsx"
 student_data = read_student_data(excel_file)
 generate_certificate(template_path, output_folder, student_data)
