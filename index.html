@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevSoc Autocred - Certificate Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page-container">
+        <header>
+            <div class="header-content">
+                <div class="mono-gram">
+                    <img src="Dev Soc Logo.png" alt="DevSoc Logo" class="logo">
+                    <h1>DevSoc Autocred</h1>
+                </div>
+                <p>Automated Certificate Generator</p>
+            </div>
+        </header>
+
+        <main>
+            <section class="form-section">
+                <form id="certificate-form" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="event-name">Event Name</label>
+                        <input type="text" id="event-name" name="event_name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="event-date">Event Date</label>
+                        <input type="date" id="event-date" name="event_date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="template-path">Certificate Template</label>
+                        <select id="template-path" name="template" required>
+                            <option value="template1">Participation Certificate</option>
+                            <option value="template2">Organizer Certificate</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="gen-type">Generation Type</label>
+                        <select id="gen-type" name="gen_type" required>
+                            <option value="bulk">Bulk Generation</option>
+                            <option value="single">Single Certificate</option>
+                        </select>
+                    </div>
+                    <div id="data-ingestion">
+                        <div class="file-upload" id="bulk-upload-section">
+                            <label for="bulk-upload" class="file-label">
+                                <span>Upload your .xlsx file</span>
+                                <input type="file" id="bulk-upload" name="file" accept=".xlsx">
+                            </label>
+                            <p class="file-name"></p>
+                        </div>
+                    </div>
+                    <button type="submit" class="submit-btn">Generate Certificates</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 DevSoc Autocred. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
