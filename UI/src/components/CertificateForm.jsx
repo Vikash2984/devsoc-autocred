@@ -60,7 +60,7 @@ function CertificateForm() {
     })
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/generate-certificates", {
+      const response = await fetch("https://devsoc-autocred.onrender.com/generate-certificates", {
         method: "POST",
         body: submitData,
       })
