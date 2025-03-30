@@ -81,7 +81,7 @@ function CertificateForm() {
       }
 
       try {
-        const response = await fetch(`https://devsoc-autocred.onrender.com/progress/${eventName}/total`)
+        const response = await fetch(`http://127.0.0.1:8000/progress/${eventName}/total`)
         const data = await response.json()
 
         if (data.total_certificates && data.total_certificates !== "Event not found") {
@@ -103,7 +103,7 @@ function CertificateForm() {
     }
 
     const setupEventSource = () => {
-      const eventSource = new EventSource(`https://devsoc-autocred.onrender.com/progress/${eventName}/completed`)
+      const eventSource = new EventSource(`http://127.0.0.1:8000/progress/${eventName}/completed`)
       eventSourceRef.current = eventSource
 
       eventSource.onmessage = (event) => {
@@ -172,7 +172,7 @@ function CertificateForm() {
         // For bulk generation
         await startProgressTracking(formData.event_name)
 
-        const response = await fetch("https://devsoc-autocred.onrender.com/generate-certificates", {
+        const response = await fetch("http://127.0.0.1:8000/generate-certificates", {
           method: "POST",
           headers: {
             Authorization: `Bearer ${token}`,
@@ -195,7 +195,7 @@ function CertificateForm() {
         }
       } else {
         // For single certificate generation
-        const response = await fetch("https://devsoc-autocred.onrender.com/generate-certificates", {
+        const response = await fetch("http://127.0.0.1:8000/generate-certificates", {
           method: "POST",
           headers: {
             Authorization: `Bearer ${token}`,
@@ -296,9 +296,8 @@ function CertificateForm() {
     <>
       <section className="form-section">
         <div className="form-header">
-          <h2 className="form-title">Generate Certificate on the Fly!</h2>
           <button onClick={logout} className="logout-btn">
-            Logout
+            Logout  <i class="fa-solid fa-arrow-right-from-bracket logout-icon"></i>
           </button>
         </div>
 
@@ -378,4 +377,3 @@ function CertificateForm() {
 }
 
 export default CertificateForm
-
