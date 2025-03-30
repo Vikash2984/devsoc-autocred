@@ -103,7 +103,7 @@ function CertificateForm() {
     }
 
     const setupEventSource = () => {
-      const eventSource = new EventSource(`http://127.0.0.1:8000/progress/${eventName}/completed`)
+      const eventSource = new EventSource(`https://devsoc-autocred.onrender.com/progress/${eventName}/completed`)
       eventSourceRef.current = eventSource
 
       eventSource.onmessage = (event) => {
@@ -172,7 +172,7 @@ function CertificateForm() {
         // For bulk generation
         await startProgressTracking(formData.event_name)
 
-        const response = await fetch("http://127.0.0.1:8000/generate-certificates", {
+        const response = await fetch("https://devsoc-autocred.onrender.com/generate-certificates", {
           method: "POST",
           headers: {
             Authorization: `Bearer ${token}`,
@@ -195,7 +195,7 @@ function CertificateForm() {
         }
       } else {
         // For single certificate generation
-        const response = await fetch("http://127.0.0.1:8000/generate-certificates", {
+        const response = await fetch("https://devsoc-autocred.onrender.com/generate-certificates", {
           method: "POST",
           headers: {
             Authorization: `Bearer ${token}`,
