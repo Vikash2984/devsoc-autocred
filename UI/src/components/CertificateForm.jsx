@@ -81,7 +81,7 @@ function CertificateForm() {
       }
 
       try {
-        const response = await fetch(`http://127.0.0.1:8000/progress/${eventName}/total`)
+        const response = await fetch(`https://devsoc-autocred.onrender.com/progress/${eventName}/total`)
         const data = await response.json()
 
         if (data.total_certificates && data.total_certificates !== "Event not found") {
