@@ -26,7 +26,7 @@ export const AuthProvider = ({ children }) => {
       formData.append("username", username)
       formData.append("password", password)
 
-      const response = await fetch("https://devsoc-autocred.onrender.com/token", {
+      const response = await fetch("https://devsoc-autocred-rjto.onrender.com/token", {
         method: "POST",
         body: formData,
       })
