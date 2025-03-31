@@ -367,7 +367,7 @@ function CertificateForm() {
             : "All certificates generated successfully!"
         }
         actionUrl={downloadUrl}
-        actionText={formData.gen_type === "single" ? "View" : "Download Log"}
+        actionText={formData.gen_type === "single" ? "Download" : "Download Log"}
       />
 
       {/* Progress Modal */}
