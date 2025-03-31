@@ -15,7 +15,7 @@ function Modal({ isOpen, onClose, title, message, actionUrl, actionText }) {
         <div className="modal-footer">
           {actionUrl && (
             <a href={actionUrl} target="_blank" rel="noopener noreferrer" className="modal-action-btn">
-              {actionText || "View"}
+              {actionText || "Download"}
             </a>
           )}
           <button onClick={onClose} className="modal-close-btn">
