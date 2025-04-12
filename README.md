@@ -1,5 +1,5 @@
 # DevSoc AutoCred
-Inorder to prevent authenticity threats of the generated documents the application uses a white-list based authentication instead of registration system please use the demo username and password inorder to access the application via the link below  
+To prevent authenticity-related threats in the generated documents, the application uses a whitelist-based authentication system instead of a user registration process. Please use the demo username and password provided to access the application using the link below.
 <ul>
   <li>
     Hosted link : https://devsoc-autocred-demo.vercel.app/
