@@ -8,6 +8,6 @@ Inorder to prevent authenticity threats of the generated documents the applicati
     Demo User : user1
   </li>
   <li>
-    Demo Password : https://devsoc-autocred-demo.vercel.app/
+    Demo Password : abc
   </li>
 </ul>
