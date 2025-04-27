@@ -12,8 +12,6 @@
 
 ![AutoCred Demo Video](https://your-video-link.com)
 
-*(You can also embed a video using YouTube links if it's uploaded to YouTube.)*
-
 ### 📸 Application Screenshots
 
 | Home Page | Login Page |
