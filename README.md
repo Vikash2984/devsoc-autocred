@@ -13,10 +13,6 @@
    <li>📥 Downloadable Log Files containing generated certificate URLs</li>
 </ul>
 
-## 🚀 Overview
-
-AutoCred is a FastAPI-based web application that streamlines the process of generating and distributing certificates. Whether it's for a single participant or an entire batch, AutoCred handles the creation, conversion, and cloud storage of certificates with ease.
-
 ## 🧠 How It Works
 
 1. **Template Injection**: Utilizes `.docx` templates containing placeholders (e.g., `{name}`, `{event}`) which are dynamically replaced with actual participant data.
