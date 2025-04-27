@@ -8,7 +8,8 @@
 [Click here to visit AutoCred Live](https://devsoc-autocred-demo.vercel.app/)
 
 ### 🎬 Demo Video
-[![Watch Demo](https://res.cloudinary.com/dkdeuduec/image/upload/v1745740358/home_a8oats.jpg)](https://res.cloudinary.com/dkdeuduec/video/upload/v1745740362/demo_tb8ykh.mp4)
+[<img src="https://res.cloudinary.com/dkdeuduec/image/upload/v1745740358/home_a8oats.jpg" width="200"/>](https://res.cloudinary.com/dkdeuduec/video/upload/v1745740362/demo_tb8ykh.mp4)
+
 
 
 
