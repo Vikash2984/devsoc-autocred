@@ -18,7 +18,7 @@
 |:---------:|:----------:|:---------:|:----------:|
 | ![Home Page](https://res.cloudinary.com/dkdeuduec/image/upload/v1745740358/home_a8oats.jpg) | ![Login Page](https://res.cloudinary.com/dkdeuduec/image/upload/v1745740358/login_eeou0k.jpg) | ![Progress Bar](https://res.cloudinary.com/dkdeuduec/image/upload/v1745740359/progress_qfqego.jpg) | ![Success Modal](https://res.cloudinary.com/dkdeuduec/image/upload/v1745740358/success_idhqpg.jpg) |
 
-| Bulk Certificate Generation | Single Certificate Generation |
+| Bulk Generation | Single Certificate Generation |
 |:----------------------------:|:------------------------------:|
 | ![Bulk Generation](https://your-image-link-3.com) | ![Single Generation](https://your-image-link-4.com) |
 
