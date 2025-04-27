@@ -10,7 +10,7 @@
 
 ### 🎬 Demo Video
 
-![AutoCred Demo Video](https://your-video-link.com)
+![AutoCred Demo Video](https://asset.cloudinary.com/dkdeuduec/819c674a6e98c159a2454228765005f6)
 
 ### 📸 Application Screenshots
 
