@@ -6,7 +6,7 @@
 
 ### 🔗 Deployed Application
 
-[Click here to visit AutoCred Live](https://your-live-link.com](https://devsoc-autocred-demo.vercel.app/)
+[Click here to visit AutoCred Live](https://devsoc-autocred-demo.vercel.app/)
 
 ### 🎬 Demo Video
 
