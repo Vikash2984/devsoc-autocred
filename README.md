@@ -2,6 +2,30 @@
 
 **AutoCred is a FastAPI-based backend project designed to generate certificates dynamically using a template injection mechanism, supporting both single and bulk certificate generation. The generated certificates are automatically uploaded to Cloudinary for easy access and sharing.**
 
+## 🖥️ Live Preview & Walkthrough
+
+### 🔗 Deployed Application
+
+[Click here to visit AutoCred Live](https://your-live-link.com)
+
+### 🎬 Demo Video
+
+![AutoCred Demo Video](https://your-video-link.com)
+
+*(You can also embed a video using YouTube links if it's uploaded to YouTube.)*
+
+### 📸 Application Screenshots
+
+| Home Page | Login Page |
+|:---------:|:----------:|
+| ![Home Page](https://your-image-link-1.com) | ![Login Page](https://your-image-link-2.com) |
+
+| Bulk Certificate Generation | Single Certificate Generation |
+|:----------------------------:|:------------------------------:|
+| ![Bulk Generation](https://your-image-link-3.com) | ![Single Generation](https://your-image-link-4.com) |
+
+
+
 ## ✨ Features
 <ul>
    <li>🧾 Single Certificate Generation</li>
