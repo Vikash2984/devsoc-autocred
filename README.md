@@ -15,10 +15,13 @@
 
 ## 🧠 How It Works
 
-1. **Template Injection**: Utilizes `.docx` templates containing placeholders (e.g., `{name}`, `{event}`) which are dynamically replaced with actual participant data.
-2. **PDF Conversion**: Employs Spire.Doc to convert the filled `.docx` files into PDFs.
-3. **Cloud Storage**: Uploads the generated PDFs to Cloudinary, providing accessible URLs for each certificate.
-4. **Progress Tracking**: Implements real-time progress tracking for bulk certificate generation using Server-Sent Events (SSE).
+<ul>
+   <li>**Template Injection**: A `.docx` certificate template contains placeholders (like `{name}`, `{event}`, etc.). These placeholders are dynamically replaced with user/student-specific data.</li>
+   <li>**Conversion**: The customized `.docx` is converted into a `.pdf` using Spire.Doc library.</li>
+   <li>**Cloud Upload**: The final PDF is uploaded to Cloudinary, and a secure URL is returned for access.</li>
+   <li>**Progress Update**: For bulk generations, progress is tracked live using Server-Sent Events.</li>
+
+</ul>
 
 
 ## 🛠️ Tech Stack
