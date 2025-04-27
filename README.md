@@ -14,9 +14,9 @@
 
 ### 📸 Application Screenshots
 
-| Home Page | Login Page | Progress Bar | Success Modal |
+| Login Page | Home Page | Progress Bar | Success Modal |
 |:---------:|:----------:|:---------:|:----------:|
-| ![Home Page](https://res.cloudinary.com/dkdeuduec/image/upload/v1745740358/home_a8oats.jpg) | ![Login Page](https://res.cloudinary.com/dkdeuduec/image/upload/v1745740358/login_eeou0k.jpg) | ![Progress Bar](https://res.cloudinary.com/dkdeuduec/image/upload/v1745740359/progress_qfqego.jpg) | ![Success Modal](https://res.cloudinary.com/dkdeuduec/image/upload/v1745740358/success_idhqpg.jpg) |
+| ![Login Page](https://res.cloudinary.com/dkdeuduec/image/upload/v1745740358/login_eeou0k.jpg) | ![Home Page](https://res.cloudinary.com/dkdeuduec/image/upload/v1745740358/home_a8oats.jpg) | ![Progress Bar](https://res.cloudinary.com/dkdeuduec/image/upload/v1745740359/progress_qfqego.jpg) | ![Success Modal](https://res.cloudinary.com/dkdeuduec/image/upload/v1745740358/success_idhqpg.jpg) |
 
 | Bulk Generation | Single Certificate Generation |
 |:----------------------------:|:------------------------------:|
