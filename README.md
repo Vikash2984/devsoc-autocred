@@ -14,8 +14,8 @@
 
 ### 📸 Application Screenshots
 
-| Home Page | Login Page |
-|:---------:|:----------:|
+| Home Page | Login Page | Progress Bar | Success Modal |
+|:---------:|:----------:|:---------:|:----------:|
 | ![Home Page](https://your-image-link-1.com) | ![Login Page](https://your-image-link-2.com) |
 
 | Bulk Certificate Generation | Single Certificate Generation |
