@@ -20,7 +20,7 @@
 
 | Bulk Generation | Single Certificate Generation |
 |:----------------------------:|:------------------------------:|
-| ![Bulk Generation](https://your-image-link-3.com) | ![Single Generation](https://your-image-link-4.com) |
+| ![Bulk Generation](https://res.cloudinary.com/dkdeuduec/image/upload/v1745740359/bulk_rh9vam.jpg) | ![Single Generation](https://res.cloudinary.com/dkdeuduec/image/upload/v1745740358/single_ojwasz.jpg) |
 
 
 
