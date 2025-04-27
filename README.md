@@ -20,13 +20,6 @@
 3. **Cloud Storage**: Uploads the generated PDFs to Cloudinary, providing accessible URLs for each certificate.
 4. **Progress Tracking**: Implements real-time progress tracking for bulk certificate generation using Server-Sent Events (SSE).
 
-## ✨ Features
-
-- **Single & Bulk Generation**: Generate certificates for individual participants or upload an Excel sheet for batch processing.
-- **Secure Access**: Implements JWT-based authentication to ensure only authorized users can generate certificates.
-- **Cloud Integration**: Seamlessly uploads certificates to Cloudinary, eliminating the need for local storage.
-- **Real-time Feedback**: Provides real-time updates on the progress of bulk certificate generation.
-- **Customizable Templates**: Supports multiple templates to cater to different event types or roles.
 
 ## 🛠️ Tech Stack
 
