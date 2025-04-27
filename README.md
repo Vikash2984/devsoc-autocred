@@ -15,11 +15,11 @@
 
 | Login Page | Home Page | Progress Bar | Success Modal |
 |:----------:|:---------:|:-------------:|:-------------:|
-| <img src="https://res.cloudinary.com/dkdeuduec/image/upload/v1745740358/login_eeou0k.jpg" width="150"/> | <img src="https://res.cloudinary.com/dkdeuduec/image/upload/v1745740358/home_a8oats.jpg" width="150"/> | <img src="https://res.cloudinary.com/dkdeuduec/image/upload/v1745740359/progress_qfqego.jpg" width="150"/> | <img src="https://res.cloudinary.com/dkdeuduec/image/upload/v1745740358/success_idhqpg.jpg" width="150"/> |
+| <img src="https://res.cloudinary.com/dkdeuduec/image/upload/v1745740358/login_eeou0k.jpg" width="250"/> | <img src="https://res.cloudinary.com/dkdeuduec/image/upload/v1745740358/home_a8oats.jpg" width="250"/> | <img src="https://res.cloudinary.com/dkdeuduec/image/upload/v1745740359/progress_qfqego.jpg" width="250"/> | <img src="https://res.cloudinary.com/dkdeuduec/image/upload/v1745740358/success_idhqpg.jpg" width="250"/> |
 
 | Bulk Generation | Single Certificate Generation |
 |:----------------:|:-----------------------------:|
-| <img src="https://res.cloudinary.com/dkdeuduec/image/upload/v1745740359/bulk_rh9vam.jpg" width="150"/> | <img src="https://res.cloudinary.com/dkdeuduec/image/upload/v1745740358/single_ojwasz.jpg" width="150"/> |
+| <img src="https://res.cloudinary.com/dkdeuduec/image/upload/v1745740359/bulk_rh9vam.jpg" width="250"/> | <img src="https://res.cloudinary.com/dkdeuduec/image/upload/v1745740358/single_ojwasz.jpg" width="250"/> |
 
 
 ## ✨ Features
