@@ -16,7 +16,7 @@
 
 | Home Page | Login Page | Progress Bar | Success Modal |
 |:---------:|:----------:|:---------:|:----------:|
-| ![Home Page](https://asset.cloudinary.com/dkdeuduec/5688e067122c3fb9375e288241e1c799) | ![Login Page](https://your-image-link-2.com) | ![Progress Bar](https://your-image-link-1.com) | ![Success Modal](https://your-image-link-2.com) |
+| ![Home Page](https://res.cloudinary.com/dkdeuduec/image/upload/v1745740358/home_a8oats.jpg) | ![Login Page](https://your-image-link-2.com) | ![Progress Bar](https://your-image-link-1.com) | ![Success Modal](https://your-image-link-2.com) |
 
 | Bulk Certificate Generation | Single Certificate Generation |
 |:----------------------------:|:------------------------------:|
