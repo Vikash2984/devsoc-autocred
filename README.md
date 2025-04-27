@@ -1,6 +1,17 @@
-# 🎓 AutoCred: Instant Certificate Generator
+# 🎓 AutoCred - Generate Certificates on the Fly!
 
-**Generate certificates effortlessly—on the fly!**
+**AutoCred is a FastAPI-based backend project designed to generate certificates dynamically using a template injection mechanism, supporting both single and bulk certificate generation. The generated certificates are automatically uploaded to Cloudinary for easy access and sharing.**
+
+## ✨ Features
+<ul>
+   <li>🧾 Single Certificate Generation</li>
+   <li>🗃️ Bulk Certificate Generation from Excel sheets</li>
+   <li>☁️ Cloud Storage of certificates on Cloudinary</li>
+   <li>🔐 Secure Authentication using JWT tokens</li>
+   <li>🚪 Logout Feature (Token revocation handled)</li>
+   <li>📈 Real-time Progress Tracking for bulk generation</li>
+   <li>📥 Downloadable Log Files containing generated certificate URLs</li>
+</ul>
 
 ## 🚀 Overview
 
@@ -30,10 +41,3 @@ AutoCred is a FastAPI-based web application that streamlines the process of gene
 - **Data Handling**: pandas, openpyxl
 - **Environment Management**: python-dotenv
 
-## 📦 Installation
-
-1. **Clone the Repository**:
-
-   ```bash
-   git clone https://github.com/yourusername/autocred.git
-   cd autocred
